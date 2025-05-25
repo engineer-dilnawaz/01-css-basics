@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat: 400,700");
+@import url("https://fonts.googleapis.com/css2?family=Anton");
+@import url("https://fonts.googleapis.com/css2?family=Roboto: 400,700");
+
 * {
   box-sizing: border-box;
 }
@@ -167,6 +171,13 @@ main {
 
 .button:focus {
   outline: none;
+}
+
+.button[disabled] {
+  cursor: not-allowed;
+  border-color: #a1a1a1;
+  background-color: #ccc;
+  color: #a1a1a1;
 }
 
 @media (min-width: 40rem) {
